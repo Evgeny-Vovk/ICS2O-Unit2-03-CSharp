@@ -1,6 +1,5 @@
-// Created by: Mr Coxall
-// Created on: Sep 2020
-//
+// Created by: Evgeny
+// Created on: Mar 2022
 // This program accepts user input
 
 using System;
@@ -9,11 +8,11 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This function accepts user input
+        //input
         string streetName;
         int streetNumber;
 
-        Console.WriteLine("This program gets a user's street number and name.");
+        Console.WriteLine("This program finds the area and perimeter of a rectangle");
         Console.WriteLine("");
 
         Console.Write("Enter your street number: ");
@@ -21,6 +20,7 @@ class Program
         Console.Write("Enter your street name: ");
         streetName = Console.ReadLine();
 
+      //output
         Console.WriteLine("");
         Console.WriteLine("Your street address is: " + streetNumber + " " + streetName + ".");
 
