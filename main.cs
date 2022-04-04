@@ -19,7 +19,7 @@ class Program
         streetNumber = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter your street name: ");
         streetName = Console.ReadLine();
-        
+
         //output
         Console.WriteLine("");
         Console.WriteLine("Your street address is: " + streetNumber + " " + streetName + ".");
